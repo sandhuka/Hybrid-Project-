@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D91ADFF20AB44EF00E964ED /* DesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D91ADFE20AB44EF00E964ED /* DesignView.swift */; };
 		9DEDE4A720AA0636003C2115 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEDE4A620AA0636003C2115 /* AppDelegate.swift */; };
-		9DEDE4A920AA0636003C2115 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEDE4A820AA0636003C2115 /* ViewController.swift */; };
+		9DEDE4A920AA0636003C2115 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEDE4A820AA0636003C2115 /* HomeViewController.swift */; };
 		9DEDE4AC20AA0636003C2115 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DEDE4AA20AA0636003C2115 /* Main.storyboard */; };
 		9DEDE4AF20AA0636003C2115 /* NoblrMenuPOC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DEDE4AD20AA0636003C2115 /* NoblrMenuPOC.xcdatamodeld */; };
 		9DEDE4B120AA0637003C2115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DEDE4B020AA0637003C2115 /* Assets.xcassets */; };
 		9DEDE4B420AA0637003C2115 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DEDE4B220AA0637003C2115 /* LaunchScreen.storyboard */; };
+		9DEDE4C020AA4F82003C2115 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEDE4BF20AA4F82003C2115 /* MenuViewController.swift */; };
+		9DEDE4C220AA4FDE003C2115 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEDE4C120AA4FDE003C2115 /* MenuTableViewCell.swift */; };
+		9DEDE4C420AA5F32003C2115 /* ClaimsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEDE4C320AA5F32003C2115 /* ClaimsViewController.swift */; };
+		9DEDE4C620AA5F4A003C2115 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEDE4C520AA5F4A003C2115 /* ProfileViewController.swift */; };
+		9DEDE4C820AA62CE003C2115 /* SectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEDE4C720AA62CE003C2115 /* SectionViewController.swift */; };
+		9DEDE4CA20AA62FA003C2115 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEDE4C920AA62FA003C2115 /* SettingsViewController.swift */; };
+		BD1A513690DE15F81DA29383 /* Pods_NoblrMenuPOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6F366DE0886C7335B1D333 /* Pods_NoblrMenuPOC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3BDB82C145A51C1160A305B5 /* Pods-NoblrMenuPOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoblrMenuPOC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NoblrMenuPOC/Pods-NoblrMenuPOC.debug.xcconfig"; sourceTree = "<group>"; };
+		9D91ADFE20AB44EF00E964ED /* DesignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignView.swift; sourceTree = "<group>"; };
 		9DEDE4A320AA0636003C2115 /* NoblrMenuPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoblrMenuPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DEDE4A620AA0636003C2115 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9DEDE4A820AA0636003C2115 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DEDE4A820AA0636003C2115 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9DEDE4AB20AA0636003C2115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DEDE4AE20AA0636003C2115 /* NoblrMenuPOC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NoblrMenuPOC.xcdatamodel; sourceTree = "<group>"; };
 		9DEDE4B020AA0637003C2115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DEDE4B320AA0637003C2115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DEDE4B520AA0637003C2115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DEDE4BF20AA4F82003C2115 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		9DEDE4C120AA4FDE003C2115 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		9DEDE4C320AA5F32003C2115 /* ClaimsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimsViewController.swift; sourceTree = "<group>"; };
+		9DEDE4C520AA5F4A003C2115 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		9DEDE4C720AA62CE003C2115 /* SectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionViewController.swift; sourceTree = "<group>"; };
+		9DEDE4C920AA62FA003C2115 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		BA6D8F667B47B4796F9157C1 /* Pods-NoblrMenuPOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoblrMenuPOC.release.xcconfig"; path = "Pods/Target Support Files/Pods-NoblrMenuPOC/Pods-NoblrMenuPOC.release.xcconfig"; sourceTree = "<group>"; };
+		DB6F366DE0886C7335B1D333 /* Pods_NoblrMenuPOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoblrMenuPOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD1A513690DE15F81DA29383 /* Pods_NoblrMenuPOC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5CCFD341BE29795757C85579 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BDB82C145A51C1160A305B5 /* Pods-NoblrMenuPOC.debug.xcconfig */,
+				BA6D8F667B47B4796F9157C1 /* Pods-NoblrMenuPOC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9DEDE49A20AA0636003C2115 = {
 			isa = PBXGroup;
 			children = (
 				9DEDE4A520AA0636003C2115 /* NoblrMenuPOC */,
 				9DEDE4A420AA0636003C2115 /* Products */,
+				5CCFD341BE29795757C85579 /* Pods */,
+				D02B98D15D23D16E42C7AEEF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +87,29 @@
 			isa = PBXGroup;
 			children = (
 				9DEDE4A620AA0636003C2115 /* AppDelegate.swift */,
-				9DEDE4A820AA0636003C2115 /* ViewController.swift */,
+				9DEDE4A820AA0636003C2115 /* HomeViewController.swift */,
 				9DEDE4AA20AA0636003C2115 /* Main.storyboard */,
+				9D91ADFE20AB44EF00E964ED /* DesignView.swift */,
+				9DEDE4C720AA62CE003C2115 /* SectionViewController.swift */,
+				9DEDE4C120AA4FDE003C2115 /* MenuTableViewCell.swift */,
+				9DEDE4BF20AA4F82003C2115 /* MenuViewController.swift */,
+				9DEDE4C920AA62FA003C2115 /* SettingsViewController.swift */,
+				9DEDE4C320AA5F32003C2115 /* ClaimsViewController.swift */,
+				9DEDE4C520AA5F4A003C2115 /* ProfileViewController.swift */,
 				9DEDE4B020AA0637003C2115 /* Assets.xcassets */,
 				9DEDE4B220AA0637003C2115 /* LaunchScreen.storyboard */,
 				9DEDE4B520AA0637003C2115 /* Info.plist */,
 				9DEDE4AD20AA0636003C2115 /* NoblrMenuPOC.xcdatamodeld */,
 			);
 			path = NoblrMenuPOC;
+			sourceTree = "<group>";
+		};
+		D02B98D15D23D16E42C7AEEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB6F366DE0886C7335B1D333 /* Pods_NoblrMenuPOC.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +119,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DEDE4B820AA0637003C2115 /* Build configuration list for PBXNativeTarget "NoblrMenuPOC" */;
 			buildPhases = (
+				248C8970DF6CB54226DBF521 /* [CP] Check Pods Manifest.lock */,
 				9DEDE49F20AA0636003C2115 /* Sources */,
 				9DEDE4A020AA0636003C2115 /* Frameworks */,
 				9DEDE4A120AA0636003C2115 /* Resources */,
+				47521EF331FC3B397E846405 /* [CP] Embed Pods Frameworks */,
+				18B7FD765D75D2AE6A6FCCF8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,14 +181,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18B7FD765D75D2AE6A6FCCF8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NoblrMenuPOC/Pods-NoblrMenuPOC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		248C8970DF6CB54226DBF521 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NoblrMenuPOC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47521EF331FC3B397E846405 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NoblrMenuPOC/Pods-NoblrMenuPOC-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/React/React.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NoblrMenuPOC/Pods-NoblrMenuPOC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9DEDE49F20AA0636003C2115 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9DEDE4AF20AA0636003C2115 /* NoblrMenuPOC.xcdatamodeld in Sources */,
-				9DEDE4A920AA0636003C2115 /* ViewController.swift in Sources */,
+				9DEDE4C420AA5F32003C2115 /* ClaimsViewController.swift in Sources */,
+				9D91ADFF20AB44EF00E964ED /* DesignView.swift in Sources */,
+				9DEDE4C820AA62CE003C2115 /* SectionViewController.swift in Sources */,
+				9DEDE4A920AA0636003C2115 /* HomeViewController.swift in Sources */,
 				9DEDE4A720AA0636003C2115 /* AppDelegate.swift in Sources */,
+				9DEDE4C620AA5F4A003C2115 /* ProfileViewController.swift in Sources */,
+				9DEDE4C020AA4F82003C2115 /* MenuViewController.swift in Sources */,
+				9DEDE4C220AA4FDE003C2115 /* MenuTableViewCell.swift in Sources */,
+				9DEDE4CA20AA62FA003C2115 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,15 +391,13 @@
 		};
 		9DEDE4B920AA0637003C2115 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BDB82C145A51C1160A305B5 /* Pods-NoblrMenuPOC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TT787LYYEJ;
+				DEVELOPMENT_TEAM = 5KKDZNJD8N;
 				INFOPLIST_FILE = NoblrMenuPOC/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kanwar.NoblrMenuPOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -300,15 +407,13 @@
 		};
 		9DEDE4BA20AA0637003C2115 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA6D8F667B47B4796F9157C1 /* Pods-NoblrMenuPOC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TT787LYYEJ;
+				DEVELOPMENT_TEAM = 5KKDZNJD8N;
 				INFOPLIST_FILE = NoblrMenuPOC/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kanwar.NoblrMenuPOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

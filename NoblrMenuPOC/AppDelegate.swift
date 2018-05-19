@@ -9,13 +9,18 @@
 import UIKit
 import CoreData
 
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    static var menu_bool = true
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        let navControl = UINavigationBar.appearance()
+        navControl.tintColor = UIColor.red
+
         // Override point for customization after application launch.
         return true
     }
